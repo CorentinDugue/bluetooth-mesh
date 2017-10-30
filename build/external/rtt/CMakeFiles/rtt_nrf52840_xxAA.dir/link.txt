@@ -1,0 +1,2 @@
+/Users/corentin/opt/gcc-arm-none-eabi-6-2017-q2-update/bin/arm-none-eabi-ar qc librtt_nrf52840_xxAA.a  CMakeFiles/rtt_nrf52840_xxAA.dir/src/SEGGER_RTT.c.obj CMakeFiles/rtt_nrf52840_xxAA.dir/src/SEGGER_RTT_printf.c.obj
+/Users/corentin/opt/gcc-arm-none-eabi-6-2017-q2-update/bin/arm-none-eabi-ranlib librtt_nrf52840_xxAA.a

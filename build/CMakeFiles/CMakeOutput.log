@@ -1,0 +1,244 @@
+The target system is: Generic -  - ARM
+The host system is: Darwin - 16.7.0 - x86_64
+Compiling the C compiler identification source file "CMakeCCompilerId.c" succeeded.
+Compiler: /Users/corentin/opt/gcc-arm-none-eabi-6-2017-q2-update/bin/arm-none-eabi-gcc 
+Build flags: 
+Id flags: -c 
+
+The output was:
+0
+
+
+Compilation of the C compiler identification source "CMakeCCompilerId.c" produced "CMakeCCompilerId.o"
+
+The C compiler identification is GNU, found in "/Users/corentin/mesh_sdk/build/CMakeFiles/3.9.3/CompilerIdC/CMakeCCompilerId.o"
+
+Determining if the C compiler works passed with the following output:
+Change Dir: /Users/corentin/mesh_sdk/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_58f1b/fast"
+/Library/Developer/CommandLineTools/usr/bin/make -f CMakeFiles/cmTC_58f1b.dir/build.make CMakeFiles/cmTC_58f1b.dir/build
+Building C object CMakeFiles/cmTC_58f1b.dir/testCCompiler.c.obj
+/Users/corentin/opt/gcc-arm-none-eabi-6-2017-q2-update/bin/arm-none-eabi-gcc   --std=gnu99 -Wall -Wno-attributes -Wno-format -ffunction-sections -fdata-sections -fno-strict-aliasing -fno-builtin --short-enums    -o CMakeFiles/cmTC_58f1b.dir/testCCompiler.c.obj   -c /Users/corentin/mesh_sdk/build/CMakeFiles/CMakeTmp/testCCompiler.c
+Linking C static library libcmTC_58f1b.a
+/usr/local/Cellar/cmake/3.9.3_1/bin/cmake -P CMakeFiles/cmTC_58f1b.dir/cmake_clean_target.cmake
+/usr/local/Cellar/cmake/3.9.3_1/bin/cmake -E cmake_link_script CMakeFiles/cmTC_58f1b.dir/link.txt --verbose=1
+/Users/corentin/opt/gcc-arm-none-eabi-6-2017-q2-update/bin/arm-none-eabi-ar qc libcmTC_58f1b.a  CMakeFiles/cmTC_58f1b.dir/testCCompiler.c.obj
+/Users/corentin/opt/gcc-arm-none-eabi-6-2017-q2-update/bin/arm-none-eabi-ranlib libcmTC_58f1b.a
+
+
+Detecting C compiler ABI info compiled with the following output:
+Change Dir: /Users/corentin/mesh_sdk/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_3e85b/fast"
+/Library/Developer/CommandLineTools/usr/bin/make -f CMakeFiles/cmTC_3e85b.dir/build.make CMakeFiles/cmTC_3e85b.dir/build
+Building C object CMakeFiles/cmTC_3e85b.dir/CMakeCCompilerABI.c.obj
+/Users/corentin/opt/gcc-arm-none-eabi-6-2017-q2-update/bin/arm-none-eabi-gcc   --std=gnu99 -Wall -Wno-attributes -Wno-format -ffunction-sections -fdata-sections -fno-strict-aliasing -fno-builtin --short-enums    -o CMakeFiles/cmTC_3e85b.dir/CMakeCCompilerABI.c.obj   -c /usr/local/Cellar/cmake/3.9.3_1/share/cmake/Modules/CMakeCCompilerABI.c
+Linking C static library libcmTC_3e85b.a
+/usr/local/Cellar/cmake/3.9.3_1/bin/cmake -P CMakeFiles/cmTC_3e85b.dir/cmake_clean_target.cmake
+/usr/local/Cellar/cmake/3.9.3_1/bin/cmake -E cmake_link_script CMakeFiles/cmTC_3e85b.dir/link.txt --verbose=1
+/Users/corentin/opt/gcc-arm-none-eabi-6-2017-q2-update/bin/arm-none-eabi-ar qc libcmTC_3e85b.a  CMakeFiles/cmTC_3e85b.dir/CMakeCCompilerABI.c.obj
+/Users/corentin/opt/gcc-arm-none-eabi-6-2017-q2-update/bin/arm-none-eabi-ranlib libcmTC_3e85b.a
+
+
+Parsed C implicit link information from above output:
+  link line regex: [^( *|.*[/\])(arm-none-eabi-ld|CMAKE_LINK_STARTFILE-NOTFOUND|([^/\]+-)?ld|collect2)[^/\]*( |$)]
+  ignore line: [Change Dir: /Users/corentin/mesh_sdk/build/CMakeFiles/CMakeTmp]
+  ignore line: []
+  ignore line: [Run Build Command:"/usr/bin/make" "cmTC_3e85b/fast"]
+  ignore line: [/Library/Developer/CommandLineTools/usr/bin/make -f CMakeFiles/cmTC_3e85b.dir/build.make CMakeFiles/cmTC_3e85b.dir/build]
+  ignore line: [Building C object CMakeFiles/cmTC_3e85b.dir/CMakeCCompilerABI.c.obj]
+  ignore line: [/Users/corentin/opt/gcc-arm-none-eabi-6-2017-q2-update/bin/arm-none-eabi-gcc   --std=gnu99 -Wall -Wno-attributes -Wno-format -ffunction-sections -fdata-sections -fno-strict-aliasing -fno-builtin --short-enums    -o CMakeFiles/cmTC_3e85b.dir/CMakeCCompilerABI.c.obj   -c /usr/local/Cellar/cmake/3.9.3_1/share/cmake/Modules/CMakeCCompilerABI.c]
+  ignore line: [Linking C static library libcmTC_3e85b.a]
+  ignore line: [/usr/local/Cellar/cmake/3.9.3_1/bin/cmake -P CMakeFiles/cmTC_3e85b.dir/cmake_clean_target.cmake]
+  ignore line: [/usr/local/Cellar/cmake/3.9.3_1/bin/cmake -E cmake_link_script CMakeFiles/cmTC_3e85b.dir/link.txt --verbose=1]
+  ignore line: [/Users/corentin/opt/gcc-arm-none-eabi-6-2017-q2-update/bin/arm-none-eabi-ar qc libcmTC_3e85b.a  CMakeFiles/cmTC_3e85b.dir/CMakeCCompilerABI.c.obj]
+  ignore line: [/Users/corentin/opt/gcc-arm-none-eabi-6-2017-q2-update/bin/arm-none-eabi-ranlib libcmTC_3e85b.a]
+  ignore line: []
+  implicit libs: []
+  implicit dirs: []
+  implicit fwks: []
+
+
+
+
+Detecting C [-std=c11] compiler features compiled with the following output:
+Change Dir: /Users/corentin/mesh_sdk/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_0bdba/fast"
+/Library/Developer/CommandLineTools/usr/bin/make -f CMakeFiles/cmTC_0bdba.dir/build.make CMakeFiles/cmTC_0bdba.dir/build
+Building C object CMakeFiles/cmTC_0bdba.dir/feature_tests.c.obj
+/Users/corentin/opt/gcc-arm-none-eabi-6-2017-q2-update/bin/arm-none-eabi-gcc   --std=gnu99 -Wall -Wno-attributes -Wno-format -ffunction-sections -fdata-sections -fno-strict-aliasing -fno-builtin --short-enums    -std=c11 -o CMakeFiles/cmTC_0bdba.dir/feature_tests.c.obj   -c /Users/corentin/mesh_sdk/build/CMakeFiles/feature_tests.c
+Linking C static library libcmTC_0bdba.a
+/usr/local/Cellar/cmake/3.9.3_1/bin/cmake -P CMakeFiles/cmTC_0bdba.dir/cmake_clean_target.cmake
+/usr/local/Cellar/cmake/3.9.3_1/bin/cmake -E cmake_link_script CMakeFiles/cmTC_0bdba.dir/link.txt --verbose=1
+/Users/corentin/opt/gcc-arm-none-eabi-6-2017-q2-update/bin/arm-none-eabi-ar qc libcmTC_0bdba.a  CMakeFiles/cmTC_0bdba.dir/feature_tests.c.obj
+/Users/corentin/opt/gcc-arm-none-eabi-6-2017-q2-update/bin/arm-none-eabi-ranlib libcmTC_0bdba.a
+
+
+    Feature record: C_FEATURE:1c_function_prototypes
+    Feature record: C_FEATURE:1c_restrict
+    Feature record: C_FEATURE:1c_static_assert
+    Feature record: C_FEATURE:1c_variadic_macros
+
+
+Detecting C [-std=c99] compiler features compiled with the following output:
+Change Dir: /Users/corentin/mesh_sdk/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_2c659/fast"
+/Library/Developer/CommandLineTools/usr/bin/make -f CMakeFiles/cmTC_2c659.dir/build.make CMakeFiles/cmTC_2c659.dir/build
+Building C object CMakeFiles/cmTC_2c659.dir/feature_tests.c.obj
+/Users/corentin/opt/gcc-arm-none-eabi-6-2017-q2-update/bin/arm-none-eabi-gcc   --std=gnu99 -Wall -Wno-attributes -Wno-format -ffunction-sections -fdata-sections -fno-strict-aliasing -fno-builtin --short-enums    -std=c99 -o CMakeFiles/cmTC_2c659.dir/feature_tests.c.obj   -c /Users/corentin/mesh_sdk/build/CMakeFiles/feature_tests.c
+Linking C static library libcmTC_2c659.a
+/usr/local/Cellar/cmake/3.9.3_1/bin/cmake -P CMakeFiles/cmTC_2c659.dir/cmake_clean_target.cmake
+/usr/local/Cellar/cmake/3.9.3_1/bin/cmake -E cmake_link_script CMakeFiles/cmTC_2c659.dir/link.txt --verbose=1
+/Users/corentin/opt/gcc-arm-none-eabi-6-2017-q2-update/bin/arm-none-eabi-ar qc libcmTC_2c659.a  CMakeFiles/cmTC_2c659.dir/feature_tests.c.obj
+/Users/corentin/opt/gcc-arm-none-eabi-6-2017-q2-update/bin/arm-none-eabi-ranlib libcmTC_2c659.a
+
+
+    Feature record: C_FEATURE:1c_function_prototypes
+    Feature record: C_FEATURE:1c_restrict
+    Feature record: C_FEATURE:0c_static_assert
+    Feature record: C_FEATURE:1c_variadic_macros
+
+
+Detecting C [-std=c90] compiler features compiled with the following output:
+Change Dir: /Users/corentin/mesh_sdk/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_d205c/fast"
+/Library/Developer/CommandLineTools/usr/bin/make -f CMakeFiles/cmTC_d205c.dir/build.make CMakeFiles/cmTC_d205c.dir/build
+Building C object CMakeFiles/cmTC_d205c.dir/feature_tests.c.obj
+/Users/corentin/opt/gcc-arm-none-eabi-6-2017-q2-update/bin/arm-none-eabi-gcc   --std=gnu99 -Wall -Wno-attributes -Wno-format -ffunction-sections -fdata-sections -fno-strict-aliasing -fno-builtin --short-enums    -std=c90 -o CMakeFiles/cmTC_d205c.dir/feature_tests.c.obj   -c /Users/corentin/mesh_sdk/build/CMakeFiles/feature_tests.c
+Linking C static library libcmTC_d205c.a
+/usr/local/Cellar/cmake/3.9.3_1/bin/cmake -P CMakeFiles/cmTC_d205c.dir/cmake_clean_target.cmake
+/usr/local/Cellar/cmake/3.9.3_1/bin/cmake -E cmake_link_script CMakeFiles/cmTC_d205c.dir/link.txt --verbose=1
+/Users/corentin/opt/gcc-arm-none-eabi-6-2017-q2-update/bin/arm-none-eabi-ar qc libcmTC_d205c.a  CMakeFiles/cmTC_d205c.dir/feature_tests.c.obj
+/Users/corentin/opt/gcc-arm-none-eabi-6-2017-q2-update/bin/arm-none-eabi-ranlib libcmTC_d205c.a
+
+
+    Feature record: C_FEATURE:1c_function_prototypes
+    Feature record: C_FEATURE:0c_restrict
+    Feature record: C_FEATURE:0c_static_assert
+    Feature record: C_FEATURE:0c_variadic_macros
+The target system is: Generic -  - ARM
+The host system is: Darwin - 16.7.0 - x86_64
+Compiling the C compiler identification source file "CMakeCCompilerId.c" succeeded.
+Compiler: /Users/corentin/opt/gcc-arm-none-eabi-6-2017-q2-update/bin/arm-none-eabi-gcc 
+Build flags: 
+Id flags: -c 
+
+The output was:
+0
+
+
+Compilation of the C compiler identification source "CMakeCCompilerId.c" produced "CMakeCCompilerId.o"
+
+The C compiler identification is GNU, found in "/Users/corentin/Documents/BTMesh/mesh_sdk/build/CMakeFiles/3.9.3/CompilerIdC/CMakeCCompilerId.o"
+
+Determining if the C compiler works passed with the following output:
+Change Dir: /Users/corentin/Documents/BTMesh/mesh_sdk/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_2e9aa/fast"
+/Library/Developer/CommandLineTools/usr/bin/make -f CMakeFiles/cmTC_2e9aa.dir/build.make CMakeFiles/cmTC_2e9aa.dir/build
+Building C object CMakeFiles/cmTC_2e9aa.dir/testCCompiler.c.obj
+/Users/corentin/opt/gcc-arm-none-eabi-6-2017-q2-update/bin/arm-none-eabi-gcc   --std=gnu99 -Wall -Wno-attributes -Wno-format -ffunction-sections -fdata-sections -fno-strict-aliasing -fno-builtin --short-enums    -o CMakeFiles/cmTC_2e9aa.dir/testCCompiler.c.obj   -c /Users/corentin/Documents/BTMesh/mesh_sdk/build/CMakeFiles/CMakeTmp/testCCompiler.c
+Linking C static library libcmTC_2e9aa.a
+/usr/local/Cellar/cmake/3.9.3_1/bin/cmake -P CMakeFiles/cmTC_2e9aa.dir/cmake_clean_target.cmake
+/usr/local/Cellar/cmake/3.9.3_1/bin/cmake -E cmake_link_script CMakeFiles/cmTC_2e9aa.dir/link.txt --verbose=1
+/Users/corentin/opt/gcc-arm-none-eabi-6-2017-q2-update/bin/arm-none-eabi-ar qc libcmTC_2e9aa.a  CMakeFiles/cmTC_2e9aa.dir/testCCompiler.c.obj
+/Users/corentin/opt/gcc-arm-none-eabi-6-2017-q2-update/bin/arm-none-eabi-ranlib libcmTC_2e9aa.a
+
+
+Detecting C compiler ABI info compiled with the following output:
+Change Dir: /Users/corentin/Documents/BTMesh/mesh_sdk/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_b5373/fast"
+/Library/Developer/CommandLineTools/usr/bin/make -f CMakeFiles/cmTC_b5373.dir/build.make CMakeFiles/cmTC_b5373.dir/build
+Building C object CMakeFiles/cmTC_b5373.dir/CMakeCCompilerABI.c.obj
+/Users/corentin/opt/gcc-arm-none-eabi-6-2017-q2-update/bin/arm-none-eabi-gcc   --std=gnu99 -Wall -Wno-attributes -Wno-format -ffunction-sections -fdata-sections -fno-strict-aliasing -fno-builtin --short-enums    -o CMakeFiles/cmTC_b5373.dir/CMakeCCompilerABI.c.obj   -c /usr/local/Cellar/cmake/3.9.3_1/share/cmake/Modules/CMakeCCompilerABI.c
+Linking C static library libcmTC_b5373.a
+/usr/local/Cellar/cmake/3.9.3_1/bin/cmake -P CMakeFiles/cmTC_b5373.dir/cmake_clean_target.cmake
+/usr/local/Cellar/cmake/3.9.3_1/bin/cmake -E cmake_link_script CMakeFiles/cmTC_b5373.dir/link.txt --verbose=1
+/Users/corentin/opt/gcc-arm-none-eabi-6-2017-q2-update/bin/arm-none-eabi-ar qc libcmTC_b5373.a  CMakeFiles/cmTC_b5373.dir/CMakeCCompilerABI.c.obj
+/Users/corentin/opt/gcc-arm-none-eabi-6-2017-q2-update/bin/arm-none-eabi-ranlib libcmTC_b5373.a
+
+
+Parsed C implicit link information from above output:
+  link line regex: [^( *|.*[/\])(arm-none-eabi-ld|CMAKE_LINK_STARTFILE-NOTFOUND|([^/\]+-)?ld|collect2)[^/\]*( |$)]
+  ignore line: [Change Dir: /Users/corentin/Documents/BTMesh/mesh_sdk/build/CMakeFiles/CMakeTmp]
+  ignore line: []
+  ignore line: [Run Build Command:"/usr/bin/make" "cmTC_b5373/fast"]
+  ignore line: [/Library/Developer/CommandLineTools/usr/bin/make -f CMakeFiles/cmTC_b5373.dir/build.make CMakeFiles/cmTC_b5373.dir/build]
+  ignore line: [Building C object CMakeFiles/cmTC_b5373.dir/CMakeCCompilerABI.c.obj]
+  ignore line: [/Users/corentin/opt/gcc-arm-none-eabi-6-2017-q2-update/bin/arm-none-eabi-gcc   --std=gnu99 -Wall -Wno-attributes -Wno-format -ffunction-sections -fdata-sections -fno-strict-aliasing -fno-builtin --short-enums    -o CMakeFiles/cmTC_b5373.dir/CMakeCCompilerABI.c.obj   -c /usr/local/Cellar/cmake/3.9.3_1/share/cmake/Modules/CMakeCCompilerABI.c]
+  ignore line: [Linking C static library libcmTC_b5373.a]
+  ignore line: [/usr/local/Cellar/cmake/3.9.3_1/bin/cmake -P CMakeFiles/cmTC_b5373.dir/cmake_clean_target.cmake]
+  ignore line: [/usr/local/Cellar/cmake/3.9.3_1/bin/cmake -E cmake_link_script CMakeFiles/cmTC_b5373.dir/link.txt --verbose=1]
+  ignore line: [/Users/corentin/opt/gcc-arm-none-eabi-6-2017-q2-update/bin/arm-none-eabi-ar qc libcmTC_b5373.a  CMakeFiles/cmTC_b5373.dir/CMakeCCompilerABI.c.obj]
+  ignore line: [/Users/corentin/opt/gcc-arm-none-eabi-6-2017-q2-update/bin/arm-none-eabi-ranlib libcmTC_b5373.a]
+  ignore line: []
+  implicit libs: []
+  implicit dirs: []
+  implicit fwks: []
+
+
+
+
+Detecting C [-std=c11] compiler features compiled with the following output:
+Change Dir: /Users/corentin/Documents/BTMesh/mesh_sdk/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_dfc1e/fast"
+/Library/Developer/CommandLineTools/usr/bin/make -f CMakeFiles/cmTC_dfc1e.dir/build.make CMakeFiles/cmTC_dfc1e.dir/build
+Building C object CMakeFiles/cmTC_dfc1e.dir/feature_tests.c.obj
+/Users/corentin/opt/gcc-arm-none-eabi-6-2017-q2-update/bin/arm-none-eabi-gcc   --std=gnu99 -Wall -Wno-attributes -Wno-format -ffunction-sections -fdata-sections -fno-strict-aliasing -fno-builtin --short-enums    -std=c11 -o CMakeFiles/cmTC_dfc1e.dir/feature_tests.c.obj   -c /Users/corentin/Documents/BTMesh/mesh_sdk/build/CMakeFiles/feature_tests.c
+Linking C static library libcmTC_dfc1e.a
+/usr/local/Cellar/cmake/3.9.3_1/bin/cmake -P CMakeFiles/cmTC_dfc1e.dir/cmake_clean_target.cmake
+/usr/local/Cellar/cmake/3.9.3_1/bin/cmake -E cmake_link_script CMakeFiles/cmTC_dfc1e.dir/link.txt --verbose=1
+/Users/corentin/opt/gcc-arm-none-eabi-6-2017-q2-update/bin/arm-none-eabi-ar qc libcmTC_dfc1e.a  CMakeFiles/cmTC_dfc1e.dir/feature_tests.c.obj
+/Users/corentin/opt/gcc-arm-none-eabi-6-2017-q2-update/bin/arm-none-eabi-ranlib libcmTC_dfc1e.a
+
+
+    Feature record: C_FEATURE:1c_function_prototypes
+    Feature record: C_FEATURE:1c_restrict
+    Feature record: C_FEATURE:1c_static_assert
+    Feature record: C_FEATURE:1c_variadic_macros
+
+
+Detecting C [-std=c99] compiler features compiled with the following output:
+Change Dir: /Users/corentin/Documents/BTMesh/mesh_sdk/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_8d01b/fast"
+/Library/Developer/CommandLineTools/usr/bin/make -f CMakeFiles/cmTC_8d01b.dir/build.make CMakeFiles/cmTC_8d01b.dir/build
+Building C object CMakeFiles/cmTC_8d01b.dir/feature_tests.c.obj
+/Users/corentin/opt/gcc-arm-none-eabi-6-2017-q2-update/bin/arm-none-eabi-gcc   --std=gnu99 -Wall -Wno-attributes -Wno-format -ffunction-sections -fdata-sections -fno-strict-aliasing -fno-builtin --short-enums    -std=c99 -o CMakeFiles/cmTC_8d01b.dir/feature_tests.c.obj   -c /Users/corentin/Documents/BTMesh/mesh_sdk/build/CMakeFiles/feature_tests.c
+Linking C static library libcmTC_8d01b.a
+/usr/local/Cellar/cmake/3.9.3_1/bin/cmake -P CMakeFiles/cmTC_8d01b.dir/cmake_clean_target.cmake
+/usr/local/Cellar/cmake/3.9.3_1/bin/cmake -E cmake_link_script CMakeFiles/cmTC_8d01b.dir/link.txt --verbose=1
+/Users/corentin/opt/gcc-arm-none-eabi-6-2017-q2-update/bin/arm-none-eabi-ar qc libcmTC_8d01b.a  CMakeFiles/cmTC_8d01b.dir/feature_tests.c.obj
+/Users/corentin/opt/gcc-arm-none-eabi-6-2017-q2-update/bin/arm-none-eabi-ranlib libcmTC_8d01b.a
+
+
+    Feature record: C_FEATURE:1c_function_prototypes
+    Feature record: C_FEATURE:1c_restrict
+    Feature record: C_FEATURE:0c_static_assert
+    Feature record: C_FEATURE:1c_variadic_macros
+
+
+Detecting C [-std=c90] compiler features compiled with the following output:
+Change Dir: /Users/corentin/Documents/BTMesh/mesh_sdk/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_686e5/fast"
+/Library/Developer/CommandLineTools/usr/bin/make -f CMakeFiles/cmTC_686e5.dir/build.make CMakeFiles/cmTC_686e5.dir/build
+Building C object CMakeFiles/cmTC_686e5.dir/feature_tests.c.obj
+/Users/corentin/opt/gcc-arm-none-eabi-6-2017-q2-update/bin/arm-none-eabi-gcc   --std=gnu99 -Wall -Wno-attributes -Wno-format -ffunction-sections -fdata-sections -fno-strict-aliasing -fno-builtin --short-enums    -std=c90 -o CMakeFiles/cmTC_686e5.dir/feature_tests.c.obj   -c /Users/corentin/Documents/BTMesh/mesh_sdk/build/CMakeFiles/feature_tests.c
+Linking C static library libcmTC_686e5.a
+/usr/local/Cellar/cmake/3.9.3_1/bin/cmake -P CMakeFiles/cmTC_686e5.dir/cmake_clean_target.cmake
+/usr/local/Cellar/cmake/3.9.3_1/bin/cmake -E cmake_link_script CMakeFiles/cmTC_686e5.dir/link.txt --verbose=1
+/Users/corentin/opt/gcc-arm-none-eabi-6-2017-q2-update/bin/arm-none-eabi-ar qc libcmTC_686e5.a  CMakeFiles/cmTC_686e5.dir/feature_tests.c.obj
+/Users/corentin/opt/gcc-arm-none-eabi-6-2017-q2-update/bin/arm-none-eabi-ranlib libcmTC_686e5.a
+
+
+    Feature record: C_FEATURE:1c_function_prototypes
+    Feature record: C_FEATURE:0c_restrict
+    Feature record: C_FEATURE:0c_static_assert
+    Feature record: C_FEATURE:0c_variadic_macros

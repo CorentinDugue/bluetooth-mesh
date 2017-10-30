@@ -1,0 +1,32 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+../external/rtt/include/SEGGER_RTT.h
+SEGGER_RTT_Conf.h
+../external/rtt/include/SEGGER_RTT_Conf.h
+
+../external/rtt/include/SEGGER_RTT_Conf.h
+intrinsics.h
+-
+
+/Users/corentin/Documents/BTMesh/mesh_sdk/external/rtt/src/SEGGER_RTT.c
+SEGGER_RTT.h
+/Users/corentin/Documents/BTMesh/mesh_sdk/external/rtt/src/SEGGER_RTT.h
+string.h
+-
+
+/Users/corentin/Documents/BTMesh/mesh_sdk/external/rtt/src/SEGGER_RTT_printf.c
+SEGGER_RTT.h
+/Users/corentin/Documents/BTMesh/mesh_sdk/external/rtt/src/SEGGER_RTT.h
+SEGGER_RTT_Conf.h
+/Users/corentin/Documents/BTMesh/mesh_sdk/external/rtt/src/SEGGER_RTT_Conf.h
+stdlib.h
+-
+stdarg.h
+-
+

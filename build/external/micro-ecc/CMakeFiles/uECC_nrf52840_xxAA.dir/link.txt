@@ -1,0 +1,2 @@
+/Users/corentin/opt/gcc-arm-none-eabi-6-2017-q2-update/bin/arm-none-eabi-ar qc libuECC_nrf52840_xxAA.a  CMakeFiles/uECC_nrf52840_xxAA.dir/uECC.c.obj
+/Users/corentin/opt/gcc-arm-none-eabi-6-2017-q2-update/bin/arm-none-eabi-ranlib libuECC_nrf52840_xxAA.a
